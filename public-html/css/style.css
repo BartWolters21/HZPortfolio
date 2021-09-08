@@ -54,3 +54,13 @@
 .container-profile p{
     font-size: 15px;
 }
+
+.characteristics {
+    background: rgba(60, 63, 60, 0.3);
+    float: right;
+    text-align: center;
+    width: 800px;
+    margin-right: 70px;
+    border-radius: 50px;
+    list-style-type: none;
+}
