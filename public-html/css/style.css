@@ -1,27 +1,11 @@
-/* PROFILE */
-.profile{
-    color: black;
-}
-
-.profile a {
-    font-size: 15px;
-    color: blue;
-}
-
-.profile nav{
-    text-align: right;
-    border-radius: 5px;
-}
-
 /* INDEX */
 .content{
-   margin: 10px;
    text-align: center;
-   /* background: url('../images/website-background.png'); */
-   /* background-size: cover; */
+   background: url('../images/website-wallpaper2.jpg');
+   background-size: 110%;
 }
 
-img{
+#img-me{
     width: 400px;
     border-radius: 5%;
 }
@@ -33,4 +17,40 @@ img{
 
 #navbars {
     border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#btn-learn-more{
+    margin: 10px;
+}
+
+/* .index-text {
+    float: right;
+    text-align: center;
+}
+
+.image-me {
+    float: left;
+}
+
+.container {
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+/* PROFILE */
+.container-profile{
+    margin: 35px;
+}
+#img-me-new-york {
+    width: 500px;
+    float: left;
+}
+
+.container-profile p{
+    font-size: 15px;
 }
