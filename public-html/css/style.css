@@ -10,10 +10,11 @@
 
 .profile nav{
     text-align: right;
+    border-radius: 5px;
 }
 
 /* INDEX */
-.index{
+.content{
    margin: 10px;
    text-align: center;
    /* background: url('../images/website-background.png'); */
@@ -28,4 +29,8 @@ img{
 .index-text a{
     font-size: 15px;
     margin: 10px;
+}
+
+#navbars {
+    border-radius: 10px;
 }
