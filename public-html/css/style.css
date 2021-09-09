@@ -1,115 +1,124 @@
 /* SOCIALS */
 .social {
-    position: fixed;
-    top: 50%;
-    left: 0px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  
-  .fa {
-    display: block;
-    padding: 20px;
-    font-size: 30px;
-    width: 60px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  
-  .fa-linkedin {
-    background: #4286f4;
-    color: white;
-  }  
+  position: fixed;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.fa {
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #4286f4;
+  color: white;
+}
 
 /* INDEX */
-.content{
-   text-align: center;
-   background: url('../images/website-wallpaper2.jpg');
-   background-size: 110%;
+.content {
+  text-align: center;
+  background: url("../images/website-wallpaper2.jpg");
+  background-size: 110%;
+  
 }
 
-#img-me{
-    width: 400px;
-    border-radius: 5%;
+#img-me {
+  width: 350px;
+  border-radius: 5%;
 }
 
-.index-text a{
-    font-size: 15px;
-    margin: 10px;
+.index-text a {
+  font-size: 15px;
+  margin: 10px;
 }
 
 #navbars {
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 
-#btn-learn-more{
-    margin: 10px;
+#btn-learn-more {
+  margin: 10px;
 }
 
 ul .active {
-    font-weight: bold;
-  }
+  font-weight: bold;
+}
+
+#card-index{
+    background: transparent;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: white;
+    margin-bottom: 20px;
+}
 
 /* PROFILE */
-.container-profile{
-    margin: 35px;
-    margin-left: 70px;
+.container-profile {
+  margin: 35px;
+  margin-left: 70px;
 }
 #img-me-new-york {
-    width: 500px;
-    float: left;
-    border-radius: 30px;
+  width: 500px;
+  float: left;
+  border-radius: 30px;
 }
 
-.container-profile p{
-    font-size: 15px;
-    margin-left: 10px;
+.container-profile p {
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 .about-me {
-    background: rgba(60, 63, 60, 0.25);
-    float: right;
-    text-align: center;
-    width: 800px;
-    margin-right: 70px;
-    margin-bottom: 20px;
-    border-radius: 50px;
-    padding: 10px;
+  background: rgba(60, 63, 60, 0.25);
+  float: right;
+  text-align: center;
+  width: 800px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  padding: 10px;
 }
 
-.about-me p{
-    font-size: 18px;
-    color: black;
+.about-me p {
+  font-size: 18px;
+  color: black;
 }
 
 .characteristics {
-    background: rgba(60, 63, 60, 0.25);
-    float: right;
-    text-align: center;
-    width: 800px;
-    margin-right: 70px;
-    border-radius: 50px;
-    padding: 10px;
+  background: rgba(60, 63, 60, 0.25);
+  float: right;
+  text-align: center;
+  width: 800px;
+  margin-right: 70px;
+  border-radius: 50px;
+  padding: 10px;
 }
