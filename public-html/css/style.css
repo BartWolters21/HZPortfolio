@@ -54,6 +54,11 @@
   border-radius: 5%;
 }
 
+#img-me-ny-2{
+    width: 332px;
+    border-radius: 5%;
+}
+
 .index-text a {
   font-size: 15px;
   margin: 10px;
@@ -74,10 +79,8 @@ ul .active {
 }
 
 #card-index{
-    background: transparent;
+    background: rgba(60, 63, 60, 0.15);
     border-radius: 5px;
-    border-width: 3px;
-    border-color: white;
     margin-bottom: 20px;
 }
 
