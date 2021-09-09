@@ -1,3 +1,46 @@
+/* SOCIALS */
+.social {
+    position: fixed;
+    top: 50%;
+    left: 0px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .fa {
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #4286f4;
+    color: white;
+  }  
+
 /* INDEX */
 .content{
    text-align: center;
@@ -25,26 +68,14 @@
     margin: 10px;
 }
 
-/* .index-text {
-    float: right;
-    text-align: center;
-}
-
-.image-me {
-    float: left;
-}
-
-.container {
-    width: 750px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} */
+ul .active {
+    font-weight: bold;
+  }
 
 /* PROFILE */
 .container-profile{
     margin: 35px;
+    margin-left: 70px;
 }
 #img-me-new-york {
     width: 500px;
@@ -54,28 +85,31 @@
 
 .container-profile p{
     font-size: 15px;
+    margin-left: 10px;
 }
 
 .about-me {
-    background: rgba(60, 63, 60, 0.3);
+    background: rgba(60, 63, 60, 0.25);
     float: right;
     text-align: center;
     width: 800px;
     margin-right: 70px;
     margin-bottom: 20px;
     border-radius: 50px;
+    padding: 10px;
 }
 
 .about-me p{
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
 .characteristics {
-    background: rgba(60, 63, 60, 0.3);
+    background: rgba(60, 63, 60, 0.25);
     float: right;
     text-align: center;
     width: 800px;
     margin-right: 70px;
     border-radius: 50px;
+    padding: 10px;
 }
