@@ -125,3 +125,22 @@ ul .active {
   border-radius: 50px;
   padding: 10px;
 }
+
+/* BLOG */
+.all-cards{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* DASHBOARD */
+.progress{
+  width: 1000px;
+  margin: auto;
+}
+
+/* FAQ */
+.faq-cards{
+  width: 1200px;
+  margin: auto;
+}
