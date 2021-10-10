@@ -44,7 +44,7 @@
 /* INDEX */
 .content {
   text-align: center;
-  background: url("../images/website-wallpaper2.jpg");
+  background: url("../images/gradient-wallpaper.jpg");
   background-size: 110%;
   
 }
@@ -79,9 +79,10 @@ ul .active {
 }
 
 #card-index{
-    background: rgba(60, 63, 60, 0.15);
+    background: white;
     border-radius: 5px;
     margin-bottom: 20px;
+    font-size: 17px;
 }
 
 /* PROFILE */
@@ -101,7 +102,7 @@ ul .active {
 }
 
 .about-me {
-  background: rgba(60, 63, 60, 0.25);
+  background: white;
   float: right;
   text-align: center;
   width: 800px;
@@ -117,7 +118,7 @@ ul .active {
 }
 
 .characteristics {
-  background: rgba(60, 63, 60, 0.25);
+  background: white;
   float: right;
   text-align: center;
   width: 800px;
@@ -128,9 +129,15 @@ ul .active {
 
 /* BLOG */
 .all-cards{
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
+   width: 100%;
+}
+
+#blog-card{
+  padding: 20px;
+  margin: 20px;
+   width: 15rem;
+   text-align: center;
+   border-radius: 10px;
 }
 
 /* DASHBOARD */
@@ -139,8 +146,23 @@ ul .active {
   margin: auto;
 }
 
+#dashboard-container{
+  background: white;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.progress-bar-marker {
+  background-image: linear-gradient(90deg, rgba(225, 225, 225, 0.1) 99%, rgba(204, 0, 0, 1) 1%);
+}
+
 /* FAQ */
 .faq-cards{
   width: 1200px;
   margin: auto;
+}
+
+#faq-card{
+  margin-top: 10px;
 }
