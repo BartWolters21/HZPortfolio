@@ -15,28 +15,33 @@
 </head>
 
 <body class="content">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbars">
-    <div class="container-fluid" id="navbarNav">
-      <span class="navbar-brand mb-0 h1">Bart Wolters</span>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="profile.html">Profile</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="dashboard.html">Dashboard</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="faq.html">FAQ</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light animate__animated animate__fadeInDown" id="navbars">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1">Bart Wolters</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ms-auto" id="navbar-items">
+            <a class="nav-link" href="index.html">About me</a>
+            <a class="nav-link" href="profile.html">Profile</a>
+            <a class="nav-link" href="blog.html">Blog</a>
+            <a class="nav-link active" href="dashboard.html">Dashboard</a>
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
   <div class="container">
     <div class="progress">
         <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="" aria-valuemin="0"
@@ -165,6 +170,9 @@
     <a href="https://twitter.com/creaturebart" class="fa fa-twitter" target="blank"></a><br>
     <a href="https://www.instagram.com/bartwolters_/" class="fa fa-instagram" target="blank"></a><br>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
